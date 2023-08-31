@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatando Números</title>
+</head>
+<body>
+
+    <script>
+        var n1 = 1545.5
+        document.writeln(n1.toFixed(2)) //Metodo que decide quantas casas decimais irá ter depois da virgula
+        document.writeln(n1.toFixed(2).replace('.', ',')) // replace Troca um 'x' por outro de sua escolha no 'y'
+        document.writeln(n1.toLocaleString('pt-BR', {style : 'currency', currency: 'BRL'})) //Metodo que permite a escrita de uma valor como se fosse em uma moeda de sua escolha
+    </script>
+</body>
+</html>
