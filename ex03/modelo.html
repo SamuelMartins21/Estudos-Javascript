@@ -6,16 +6,16 @@
     <title>Modelo de exercicio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1>Hora do dia</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
-        <div id="msg">
-            
+        <div id="dados">
+            <p>Número: <input type="number" name="txtn" id="txtn"> <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
         </div>
-        <div id ="foto">
-            <img id = "imagem" src="Fotos/manhã-300.jpg" alt="Foto manhã">
+        <div>
+            <select name="tabuada" id="seltab" size = "10"></select>
         </div>
     </section>
     <footer>
