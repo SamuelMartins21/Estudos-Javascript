@@ -21,6 +21,9 @@ footer{
 }
 
 div{
-    text-align: center;
     padding: 10px;
+}
+
+select#selnums{
+    width: 150px;
 }
