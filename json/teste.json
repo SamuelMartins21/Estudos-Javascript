@@ -1,0 +1,9 @@
+{
+    "nome": "Matheus",
+    "esta_trabalhando": true,
+    "detalhes_profissão": {
+        "profissao": "Programador",
+        "salario": 1000
+    },
+    "hobbies": [1, "usd", null]
+}
